@@ -35,3 +35,19 @@
 .number {
   margin-top: 5%;
 }
+
+.msgAppear {
+  display: block;
+}
+
+.msg {
+  text-align: center;
+  margin: 0 auto;
+  margin-bottom: 10px;
+  letter-spacing: 0.2rem;
+  width: 340px;
+  padding: 3px;
+  font-size: 16px;
+  font-weight: bold;
+}
+
