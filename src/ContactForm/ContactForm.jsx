@@ -1,8 +1,6 @@
 import React, { Component } from 'react'
 import emailjs from 'emailjs-com'
 import './ContactForm.css'
-// const nodemailer = require('nodemailer')
-// require('dotenv').config()
 
 
 
@@ -44,7 +42,6 @@ export default function ContactForm() {
             name="message"
             required
           ></textarea>
-          {/* <div className={this.state.sent ? 'msg' : 'msg msgAppear'}>Message has been sent!</div> */}
           <button type="sumbit">Submit</button>
         </form>
         <p className="number">Call <strong>Luke</strong> at 914-588-5258.</p>
