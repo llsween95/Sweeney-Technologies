@@ -25,23 +25,26 @@ export default function ContactForm() {
       <section className="contact" >
         <form className="contact-form" onSubmit={sendEmail}>
           <input
+            className="input"
             type="text"
             placeholder="Name"
             name="name"
             required
           />
           <input
+            className="input"
             type="email"
             placeholder="Email"
             name="email"
             required
           />
-          <textarea
-            rows="5"
+          <input
+            className="textarea"
+            type="text"
             placeholder="Message"
             name="message"
             required
-          ></textarea>
+          />
           <button type="sumbit">Submit</button>
         </form>
         <p className="number">Call <strong>Luke</strong> at 914-588-5258.</p>
