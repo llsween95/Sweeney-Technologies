@@ -1,6 +1,5 @@
 import './App.css'
-import Home from './Home/Home'
-import ClientPortal from './ClientPortal/ClientPortal'
+import Home from './Pages/Home'
 import { Switch, Route } from 'react-router-dom'
 
 
@@ -9,7 +8,6 @@ function App() {
     <div className="App">
       <Switch>
         <Route exact path="/" component={Home} />
-        <Route exact path="/client-portal" component={ClientPortal} />
       </Switch>
     </div>
   );

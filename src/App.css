@@ -7,12 +7,51 @@
 body {
   margin: 0;
   padding: 0;
-  background-color: black;
-  color: white;
+  font-family: 'Inter', sans-serif !important;
 }
 
 .App {
   margin: 0;
   padding: 0;
+}
+
+.black-background {
   background-color: black;
+  color: white;
+}
+
+.white-background {
+  background-color: white;
+  color: black;
+}
+
+.section-height {
+  height: 80vh;
+}
+
+.border-bottom {
+  border-bottom: 1px solid #f1f1f1;
+}
+
+.phone-number {
+  text-align: center;
+  margin-top: 5%;
+}
+
+@media screen and (max-width: 1250px) {
+  .section-height {
+   height: 87vh;
+  }
+}
+
+@media screen and (max-width: 415px) {
+  .section-height {
+   height: 80vh;
+  }
+}
+
+@media screen and (max-width: 325px) {
+  .section-height {
+   height: 100vh;
+  }
 }
